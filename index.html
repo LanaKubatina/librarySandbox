@@ -3,7 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>City Library – AccessLearn Playground</title>
 <style>
-  /* Author: update --bg-image to your final image path or a data URI when ready */
   :root{--bg:#fff;--bg-image:url('images/library_design.png');--ink:#1b1c38;--accent:#FFA024;--card:#fff;--soft:#D1EAFE}
   *{box-sizing:border-box}
   html,body{height:100%;margin:0;color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif}
@@ -92,8 +91,7 @@
     <section class="grid" aria-label="Feature cards">
       <article id="events" class="card">
         <h3>Upcoming Events at Your Library</h3>
-        <!-- Author: replace src with your own image path here -->
-        <img src="images/CommunityReading.png" alt="" role="presentation">
+        <img src="images/CommunityReading.png" alt="Community Reading Event">
         <p>Welcome to our monthly Community Reading! Programs, performances, and prizes are waiting for you!</p>
         <div class="card-actions">
           <!-- Focus order jumps here due to tabindex -->
@@ -103,7 +101,7 @@
 
       <article id="resources" class="card">
         <h3>Digital Resources for Everyone</h3>
-        <img src="images/audiobok.jpg" alt="" role="presentation">
+        <img src="images/audiobok.jpg" alt=" A white phone rests on a fluffy white surface beside a pair of headphones. The phone screen displays The Ultimate Jim Rohn Library audiobook, showing Jim Rohn’s portrait and playback controls.">
         <p>Stream ebooks and audiobooks, search research databases, or try our language apps with your library card.</p>
         <div class="card-actions">
           <a href="#resources" id="browseResources" class="btn">Browse</a>
@@ -155,7 +153,7 @@
   <div id="resourcesModal" class="modal" aria-hidden="true">
     <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="resources-title">
       <h2 id="resources-title">Browse digital resources</h2>
-      <img src="images/audiobok.jpg" alt="Ebooks on a tablet" style="max-width:100%;margin-bottom:1rem;">
+      <img src="images/audiobok.jpg" alt=" A white phone rests on a fluffy white surface beside a pair of headphones. The phone screen displays The Ultimate Jim Rohn Library audiobook, showing Jim Rohn’s portrait and playback controls." style="max-width:100%;margin-bottom:1rem;">
       <p>Use your library card to access ebooks, audiobooks, research databases, and language learning tools from home.</p>
       <div class="actions"><button id="closeResources" class="btn">Close</button></div>
     </div>
@@ -248,4 +246,5 @@
 
 </body>
 </html>
+
 
